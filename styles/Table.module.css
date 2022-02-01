@@ -1,0 +1,45 @@
+.table {
+	border: 2px solid #393939;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.td {
+	padding: 5px;
+}
+
+.th {
+	width: 100px;
+}
+
+.tbody tr:nth-child(odd) {
+	background-color: rgba(91, 218, 168, 0.4);
+}
+
+.tbody tr:nth-child(even) {
+	background-color: rgb(91, 218, 168, 0.8);
+}
+
+.icons {
+	width: 15px;
+	cursor: pointer;
+}
+
+.iconsTd {
+	background-color: white;
+}
+
+.update {
+	color: rgba(11, 250, 63, 0.2);
+}
+.update:hover {
+	color: rgb(4, 153, 36, 0.6);
+}
+
+.delete {
+	color: rgba(247, 7, 7, 0.2);
+}
+
+.delete:hover {
+	color: rgba(247, 7, 7, 0.6);
+}
